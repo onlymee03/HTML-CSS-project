@@ -3,7 +3,7 @@
 }
 h1{
     padding: 5px;
-    display: flex;
+    display: block;
     width: 100%;
     text-align: center;
     background-color: bisque;
@@ -15,11 +15,18 @@ p{
     font-family: sans-serif;
     background-color: #F0FFFFFF;
 }
+section{
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    background-color: #e88888;
+    padding: 20px;
+    margin: 5px;
+}
 
 button{
     padding: 10px;
     margin: 5px;
-    background-color: #3e3ec2;
+    background-color: #61bf20;
     color: #faf5f5;
     font-weight: bold;
+    border-radius: 15px;
 }
